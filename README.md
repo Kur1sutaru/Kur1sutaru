@@ -9,3 +9,19 @@
 * Wikidata padawan <https://www.wikidata.org/wiki/User:Kurop1n> 
 * Gamer at <https://www.twitch.tv/helennis>
 * Cat lover, Half Unicorn, Coffee lover, Potterhead [Hufflepuff], house of STARKS, Boardgame Girl
+
+
+</details>
+
+<br>
+
+<details open>
+ <summary><b> Github Stats & Programming Languages Agnostic or Not:</b> </summary>  
+
+<br>
+
+<p align = "left">
+ <img src = "https://github-readme-stats.vercel.app/api?username=BragatteMAS&show_icons=true&theme=">
+ <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BragatteMAS&theme=&show_icons=true&hide_border=true" />
+</p>
+<br/>
