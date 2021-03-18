@@ -1,6 +1,9 @@
 # Hi I'm Cristal  🖥️ 🧬 🎲 🦄
+
 [![Linkedin Badge](https://img.shields.io/badge/-cristal-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cristal-villalba-712a96101/)](https://www.linkedin.com/in/cristal-villalba-712a96101/)
 [![Twitter Badge](https://img.shields.io/badge/-@aunicorn1o-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/aunicorn1o)](https://twitter.com/aunicorn1o)
+[![GitHub Badge](https://img.shields.io/github/followers/Kur1sutaru?style=social)](https://github.com/Kur1sutaru)
+[![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-9cf)](https://www.researchgate.net/profile/Cristal-Villalba)
 
 
 # Welcome to my profile! 
