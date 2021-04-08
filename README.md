@@ -10,6 +10,7 @@
 
 * I'm a Jedi, Pokemon and Master in Genetics and Molecular Biology at Universidade Federal do Rio Grande do Sul - PPGBM UFRGS <http://www.ufrgs.br/ppgbm/>
 * Wikidata padawan <https://www.wikidata.org/wiki/User:Kurop1n> 
+* Dev of The AIMe registry for artificial intelligence in biomedical research <https://aime-registry.org/>
 * Gamer at <https://www.twitch.tv/helennis>
 * Cat lover, Half Unicorn, Coffee lover, Potterhead [Hufflepuff], house of STARKS, Boardgame Girl
 
