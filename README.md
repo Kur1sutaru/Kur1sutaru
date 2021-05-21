@@ -1,4 +1,4 @@
-# Hi I'm Cristal  🖥️ 🧬 🎲 🦄
+# Hi I'm Cristal  🖥️ 🧬 🎲 🦄 🎮
 
 [![Linkedin Badge](https://img.shields.io/badge/-cristal-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cristal-villalba-712a96101/)](https://www.linkedin.com/in/cristal-villalba-712a96101/)
 [![Twitter Badge](https://img.shields.io/badge/-@aunicorn1o-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/aunicorn1o)](https://twitter.com/aunicorn1o)
