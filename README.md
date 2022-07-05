@@ -9,7 +9,8 @@
 # Welcome to my profile! 
 
 * I'm a Jedi, Pokemon and Master / PhD in Genetics and Molecular Biology at Universidade Federal do Rio Grande do Sul - PPGBM UFRGS <http://www.ufrgs.br/ppgbm/>
-* Currently Post doctoral researcher at Hospital de Clínicas de Porto Alegre at the Bioinformatics Core <https://sites.google.com/hcpa.edu.br/area-do-pesquisador/servi%C3%A7os/diretoria-de-pesquisa?authuser=0>
+* I made Post doctoral research at Hospital de Clínicas de Porto Alegre at the Bioinformatics Core <https://sites.google.com/hcpa.edu.br/area-do-pesquisador/servi%C3%A7os/diretoria-de-pesquisa?authuser=0>
+* Currently working as Research Scientist in the Department of Systems Biology - Shiaw-Yih Lin lab <https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/systems-biology.html>
 * Wikidata padawan <https://www.wikidata.org/wiki/User:Kurop1n> 
 * Part of the Steering committee of AIMe registry for artificial intelligence in biomedical research <https://aime-registry.org/>
 * Gamer at <https://www.twitch.tv/helennis>
