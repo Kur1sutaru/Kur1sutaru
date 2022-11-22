@@ -9,7 +9,6 @@
 # Welcome to my profile! 
 
 * I'm a Jedi, Pokemon and Master / PhD in Genetics and Molecular Biology at Universidade Federal do Rio Grande do Sul - PPGBM UFRGS <http://www.ufrgs.br/ppgbm/>
-* I made Post doctoral research at Hospital de Clínicas de Porto Alegre at the Bioinformatics Core <https://sites.google.com/hcpa.edu.br/area-do-pesquisador/servi%C3%A7os/diretoria-de-pesquisa?authuser=0>
 * Wikidata padawan <https://www.wikidata.org/wiki/User:Kurop1n> 
 * Part of the Steering committee of AIMe registry for artificial intelligence in biomedical research <https://aime-registry.org/>
 * Gamer at <https://www.twitch.tv/helennis>
