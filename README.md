@@ -12,6 +12,7 @@
 * Wikidata padawan <https://www.wikidata.org/wiki/User:Kurop1n> 
 * Part of the Steering committee of AIMe registry for artificial intelligence in biomedical research <https://aime-registry.org/>
 * Gamer at <https://www.twitch.tv/helennis>
+* Post-doc at RChenLab - Baylor College of Medicine <https://rchenlab.github.io/team/>
 * Cat lover, Half Unicorn, Coffee lover, Potterhead [Hufflepuff], house of STARKS, Boardgame Girl
 
 
