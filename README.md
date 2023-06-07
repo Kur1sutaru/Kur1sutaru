@@ -4,8 +4,7 @@
 [![Twitter Badge](https://img.shields.io/badge/-@anunicorn1um-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/aunicorn1o)](https://twitter.com/anunicorn1um)
 [![GitHub Badge](https://img.shields.io/github/followers/Kur1sutaru?style=social)](https://github.com/Kur1sutaru)
 [![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-9cf)](https://www.researchgate.net/profile/Cristal-Villalba)
-
-
+![Profile View Counter](https://komarev.com/ghpvc/?username=Kur1sutaru)
 # Welcome to my profile! 
 
 * I'm a Jedi, Pokemon and Master / PhD in Genetics and Molecular Biology at Universidade Federal do Rio Grande do Sul - PPGBM UFRGS <http://www.ufrgs.br/ppgbm/>
@@ -34,9 +33,8 @@
  ## 😂 Here is a random joke that'll make you laugh!
 ![Jokes Card](https://readme-jokes.vercel.app/api)
  
-![Profile View Counter](https://komarev.com/ghpvc/?username=Kur1sutaru)
+
  
- ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url = https://github.com/Kur1sutaru/dry-lab-standard)
  
  
  
