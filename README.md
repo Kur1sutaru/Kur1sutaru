@@ -34,6 +34,6 @@
  ## 😂 Here is a random joke that'll make you laugh!
 ![Jokes Card](https://readme-jokes.vercel.app/api)
  
- ![GitHub Contributors Image](https://contrib.rocks/image?repo=RCHENLAB/dry-lab-standard)
+![Profile View Counter](https://komarev.com/ghpvc/?username=Kur1sutaru)
  
 
