@@ -15,20 +15,10 @@
 * Cat lover, Half Unicorn, Coffee lover, Potterhead [Hufflepuff], house of STARKS, Boardgame Girl
 
 
-</details>
-
-<br>
-
-<details open>
- <summary><b> Github Stats & Programming Languages Agnostic or Not:</b> </summary>  
-
-<br>
-
-<p align = "left">
- <img src = "https://github-readme-stats.vercel.app/api?username=Kur1sutaru&show_icons=true&theme=">
- <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kur1sutaru&theme=&show_icons=true&hide_border=true" />
-</p>
-<br/>
+## Contributions
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Kur1sutaru/Kur1sutaru/output/github-contribution-grid-snake.svg" />
+  <br/><br/><br/>
+</div>
 
  
  
