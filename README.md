@@ -10,7 +10,7 @@
 * Wikidata padawan <https://www.wikidata.org/wiki/User:Kurop1n> 
 * Part of the Steering committee of AIMe registry for artificial intelligence in biomedical research <https://aime-registry.org/>
 * Cat lover, Half Unicorn, Coffee lover, house of STARKS, Boardgame Girl
-
+* https://na.finalfantasyxiv.com/lodestone/character/41227356/
 
 
 
