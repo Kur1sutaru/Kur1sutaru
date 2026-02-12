@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cristal Villalba – Researcher Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:    #0d1117;
+    --paper:  #f7f4ef;
+    --teal:   #1a7a6e;
+    --teal-l: #d0eeea;
+    --amber:  #c8842a;
+    --mist:   #e8e4dc;
+    --rule:   #bbb5aa;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--paper);
+    font-family: 'DM Sans', sans-serif;
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+  /* ── outer card ── */
+  .card {
+    width: 860px;
+    background: var(--paper);
+    border: 1.5px solid var(--rule);
+    box-shadow: 6px 6px 0 0 var(--ink);
+    overflow: hidden;
+    animation: rise .7s cubic-bezier(.22,1,.36,1) both;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(28px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── masthead ── */
+  .masthead {
+    background: var(--ink);
+    color: var(--paper);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0;
+    padding: 36px 40px 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    background: var(--teal);
+    opacity: .18;
+  }
+  .masthead::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: 30%;
+    width: 160px; height: 160px;
+    border-radius: 50%;
+    background: var(--amber);
+    opacity: .12;
+  }
+
+  .masthead-left { position: relative; z-index: 1; }
+
+  .label {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--teal-l);
+    margin-bottom: 8px;
+    display: block;
+  }
+  .name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 38px;
+    line-height: 1.08;
+    letter-spacing: -.02em;
+    color: #fff;
+  }
+  .name em {
+    font-style: italic;
+    color: #b9d9d5;
+  }
+  .title-row {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    font-family: 'Space Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 1px solid rgba(255,255,255,.3);
+    color: #c9e8e4;
+  }
+
+  .avatar-wrap {
+    position: relative; z-index: 1;
+    display: flex; align-items: flex-end;
+  }
+  .avatar {
+    width: 100px; height: 100px;
+    border-radius: 4px;
+    border: 2px solid var(--teal);
+    object-fit: cover;
+    display: block;
+  }
+  .avatar-placeholder {
+    width: 100px; height: 100px;
+    border-radius: 4px;
+    border: 2px solid var(--teal);
+    background: linear-gradient(135deg, #1a7a6e33 0%, #1a7a6e88 100%);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--teal-l); font-family: 'DM Serif Display', serif; font-size: 36px;
+  }
+
+  /* ── tagline stripe ── */
+  .tagline-stripe {
+    background: var(--teal);
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px 40px;
+    letter-spacing: .01em;
+  }
+
+  /* ── body grid ── */
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .col {
+    padding: 30px 32px;
+  }
+  .col:first-child {
+    border-right: 1.5px solid var(--mist);
+  }
+
+  /* ── section heading ── */
+  .sec-head {
+    font-family: 'Space Mono', monospace;
+    font-size: 8.5px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--mist);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .sec-head svg { flex-shrink: 0; }
+
+  /* ── research blurb ── */
+  .research-text {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: #2a2a2a;
+    font-weight: 300;
+  }
+  .research-text strong {
+    font-weight: 600;
+    color: var(--teal);
+  }
+
+  /* ── pill tags ── */
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
+  .tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    letter-spacing: .08em;
+    padding: 4px 9px;
+    background: var(--teal-l);
+    color: var(--teal);
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+
+  /* ── edu timeline ── */
+  .timeline { list-style: none; }
+  .timeline li {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+    animation: fadeIn .5s ease both;
+  }
+  .timeline li:nth-child(1) { animation-delay: .1s; }
+  .timeline li:nth-child(2) { animation-delay: .2s; }
+  .timeline li:nth-child(3) { animation-delay: .3s; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+
+  .yr {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--teal);
+    padding-top: 2px;
+  }
+  .deg { font-size: 13px; font-weight: 600; color: var(--ink); line-height: 1.3; }
+  .inst { font-size: 11.5px; color: #666; margin-top: 1px; }
+
+  /* ── pub list ── */
+  .pub-list { list-style: none; }
+  .pub-list li {
+    border-left: 2px solid var(--mist);
+    padding: 6px 0 6px 12px;
+    margin-bottom: 10px;
+    font-size: 11.5px;
+    line-height: 1.55;
+    color: #333;
+    transition: border-color .2s;
+  }
+  .pub-list li:hover { border-color: var(--teal); }
+  .pub-list .journal {
+    font-style: italic;
+    color: var(--amber);
+    font-size: 10.5px;
+    display: block;
+    margin-top: 2px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: .04em;
+  }
+  .pub-list .highlight {
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  /* ── membership ── */
+  .membership {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px;
+    background: var(--mist);
+    border-radius: 2px;
+    margin-top: 8px;
+  }
+  .membership .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--teal); flex-shrink: 0;
+  }
+  .membership span { font-size: 12px; color: #333; }
+
+  /* ── footer ── */
+  .footer {
+    border-top: 1.5px solid var(--mist);
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-links { display: flex; gap: 18px; }
+  .footer-link {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--teal);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color .2s;
+  }
+  .footer-link:hover { border-color: var(--teal); }
+  .footer-note {
+    font-family: 'Space Mono', monospace;
+    font-size: 8px;
+    color: #aaa;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  /* hover lift on card */
+  .card:hover { box-shadow: 10px 10px 0 0 var(--ink); transition: box-shadow .25s ease; }
+</style>
+</head>
+<body>
+
+<div class="card">
+
+  <!-- MASTHEAD -->
+  <div class="masthead">
+    <div class="masthead-left">
+      <span class="label">Postdoctoral Fellow · Bioinformatics</span>
+      <div class="name"><em>Cristal</em> Villalba</div>
+      <div class="title-row">
+        <span class="badge">Single-Cell Transcriptomics</span>
+        <span class="badge">HPC Pipelines</span>
+        <span class="badge">Pain & Sensory Systems</span>
+      </div>
+    </div>
+    <div class="avatar-wrap">
+      <div class="avatar-placeholder">CV</div>
+    </div>
+  </div>
+
+  <!-- TAGLINE STRIPE -->
+  <div class="tagline-stripe">
+    "Maps pain-relevant cell states and circuits across species — building open, reproducible tools that make rigorous analyses accessible to all."
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- LEFT COL -->
+    <div class="col">
+
+      <div class="sec-head">
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><circle cx="5" cy="5" r="4.5" stroke="#c8842a" stroke-width="1"/><circle cx="5" cy="5" r="2" fill="#c8842a"/></svg>
+        Research Focus
+      </div>
+      <p class="research-text">
+        Specializes in <strong>single-cell &amp; spatial transcriptomics</strong> of sensory systems — particularly <strong>dorsal root ganglia</strong> and oral tissues — to map pain-relevant cell states and circuits across species. Develops reproducible R/Python pipelines for integration, differential analysis, and cell-type annotation, paired with epigenomic and immune/TCR profiling to connect molecular programs to phenotype.
+      </p>
+      <p class="research-text" style="margin-top:12px;">
+        Particularly interested in <strong>cross-species atlases</strong>, biomarker discovery, and open, training-friendly methods that make rigorous analyses accessible to collaborators and clinicians alike.
+      </p>
+
+      <div class="tags">
+        <span class="tag">scRNA-seq</span>
+        <span class="tag">Spatial Tx</span>
+        <span class="tag">Cross-Species</span>
+        <span class="tag">DRG</span>
+        <span class="tag">R / Python</span>
+        <span class="tag">SLURM HPC</span>
+        <span class="tag">Epigenomics</span>
+        <span class="tag">TCR profiling</span>
+        <span class="tag">Biomarkers</span>
+      </div>
+
+      <div style="margin-top:28px;">
+        <div class="sec-head">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><rect x=".5" y=".5" width="9" height="9" stroke="#c8842a" stroke-width="1"/><line x1="2.5" y1="5" x2="7.5" y2="5" stroke="#c8842a" stroke-width="1"/></svg>
+          Education
+        </div>
+        <ul class="timeline">
+          <li>
+            <span class="yr">2015</span>
+            <div>
+              <div class="deg">BSc Biological Sciences</div>
+              <div class="inst">UNIPAMPA, Brazil</div>
+            </div>
+          </li>
+          <li>
+            <span class="yr">2018</span>
+            <div>
+              <div class="deg">MSc Genetics &amp; Molecular Biology</div>
+              <div class="inst">UFRGS, Brazil</div>
+            </div>
+          </li>
+          <li>
+            <span class="yr">2021</span>
+            <div>
+              <div class="deg">PhD Genetics &amp; Molecular Biology</div>
+              <div class="inst">UFRGS, Brazil</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div style="margin-top:20px;">
+        <div class="sec-head">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><polygon points="5,1 9,9 1,9" stroke="#c8842a" stroke-width="1" fill="none"/></svg>
+          Professional Memberships
+        </div>
+        <div class="membership">
+          <div class="dot"></div>
+          <span>International Society of Computational Biology (ISCB) · 2019–present</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COL -->
+    <div class="col">
+      <div class="sec-head">
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M1 9 L5 1 L9 9" stroke="#c8842a" stroke-width="1" fill="none"/><line x1="2.5" y1="6.5" x2="7.5" y2="6.5" stroke="#c8842a" stroke-width="1"/></svg>
+        Selected Publications
+      </div>
+      <ul class="pub-list">
+
+        <li>
+          Matschinske J, … <span class="highlight">Villalba Silva GC</span>, … Blumenthal DB.
+          The AIMe registry for artificial intelligence in biomedical research.
+          <span class="journal">Nature Methods · 2021</span>
+        </li>
+
+        <li>
+          Alam J, Yaman E, de Paiva CS, … <span class="highlight">Villalba Silva GC</span>, et al.
+          Changes in conjunctival mononuclear phagocytes and suppressive activity of regulatory macrophages in desiccation-induced dry eye.
+          <span class="journal">The Ocular Surface · 2024</span>
+        </li>
+
+        <li>
+          <span class="highlight">Villalba Silva GC</span>, Borsatto T, Schwartz IVD, Sperb-Ludwig F.
+          Characterization of the 3′UTR of the BTD gene and identification of regulatory elements and microRNAs.
+          <span class="journal">Genetics and Molecular Biology · 2022</span>
+        </li>
+
+        <li>
+          <span class="highlight">Villalba Silva GC</span>, et al.
+          Drug repositioning applied to cardiovascular disease in mucopolysaccharidosis.
+          <span class="journal">Life · 2022</span>
+        </li>
+
+        <li>
+          Soares LDF, <span class="highlight">Villalba Silva GC</span>, et al.
+          MPSBase: Comprehensive repository of differentially expressed genes for mucopolysaccharidoses.
+          <span class="journal">Molecular Genetics and Metabolism · 2021</span>
+        </li>
+
+        <li>
+          <span class="highlight">Villalba Silva GC</span>, Matte U.
+          Neuronetworks: Analysis of brain pathology in mucopolysaccharidoses — a systems biology approach.
+          <span class="journal">Neuroscience Informatics · 2022</span>
+        </li>
+
+      </ul>
+
+      <div style="margin-top:22px;">
+        <div class="sec-head">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><circle cx="5" cy="3" r="2" stroke="#c8842a" stroke-width="1" fill="none"/><path d="M1 9 C1 6.5 9 6.5 9 9" stroke="#c8842a" stroke-width="1" fill="none"/></svg>
+          Conference &amp; Other Outputs
+        </div>
+        <ul class="pub-list">
+          <li>
+            Oncogenic Signaling Pathways in Mucopolysaccharidoses.
+            <span class="journal">BSB 2020 · Springer LNCS Book Chapter</span>
+          </li>
+          <li>
+            Fantastic databases and where to find them: Web applications for researchers in a rush.
+            <span class="journal">Genetics and Molecular Biology · 2021</span>
+          </li>
+          <li>
+            In silico model using prognostic genetic factors for ovarian response in controlled ovarian stimulation.
+            <span class="journal">J. Assisted Reproduction and Genetics · 2021</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div><!-- /body -->
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-links">
+      <a href="https://github.com/Kur1sutaru" class="footer-link">GitHub</a>
+      <a href="https://opa.uthscsa.edu/postdoc-profiles/cristal-villalba" class="footer-link">Profile</a>
+      <a href="https://www.iscb.org/" class="footer-link">ISCB</a>
+    </div>
+    <div class="footer-note">UT Health San Antonio · Office of Postdoctoral Affairs</div>
+  </div>
+
+</div>
+
+</body>
+</html>
