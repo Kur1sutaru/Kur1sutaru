@@ -7,10 +7,9 @@
 
 
 
-
 <p align="center">
-  <a href="https://github.com/kittinan/spotify-github-profile">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31htnetsche7ffa5owauyo7uk7i4&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false">
+  <a href="https://github.com/novatorem/spotify-github-profile">
+    <img src="https://novatorem-gamma-kohl.vercel.app/api/view?uid=31htnetsche7ffa5owauyo7uk7i4&cover_image=true&theme=default&show_offline=false&background_color=121212">
   </a>
 </p>
 
