@@ -4,6 +4,20 @@
 [![GitHub Badge](https://img.shields.io/github/followers/Kur1sutaru?style=social)](https://github.com/Kur1sutaru)
 [![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-9cf)](https://www.researchgate.net/profile/Cristal-Villalba)
 ![Profile View Counter](https://komarev.com/ghpvc/?username=Kur1sutaru)
+
+
+
+
+<p align="center">
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31htnetsche7ffa5owauyo7uk7i4&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false">
+  </a>
+</p>
+
+
+
+
+
 # Welcome to my profile! 
 
 * I'm a Jedi, Pokemon and Master / PhD in Genetics and Molecular Biology at Universidade Federal do Rio Grande do Sul - PPGBM UFRGS <http://www.ufrgs.br/ppgbm/>
