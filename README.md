@@ -13,7 +13,7 @@
 * https://na.finalfantasyxiv.com/lodestone/character/41227356/
 * Also trying to spread the Bioinformatics word on RSG Brazil podcast - available at https://sites.google.com/view/rsg-brazil/english-version and https://open.spotify.com/show/6gYtzMr1HtFf91frXIyhNN?si=83877d5f373648e8
 
-
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_ID&cover_image=true&theme=default)](https://spotify-github-profile.vercel.app)
 
  
  
